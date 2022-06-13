@@ -29,3 +29,4 @@ select divisa_region.name as country_name, divisa.name as currency_name,cast(max
  and provincia.CountryRegionCode = divisa_pais.CountryRegionCode 
  and ratio_divisa.ToCurrencyCode = divisa_pais.CurrencyCode
  and divisa_pais.CurrencyCode = divisa.CurrencyCode group by divisa.name , divisa_region.name , divisa_region.name
+gi
